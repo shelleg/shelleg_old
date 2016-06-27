@@ -1,0 +1,8 @@
+---
+# use any ansble-galaxy role as dependency
+- src: franklinkim.vim
+
+# use any git repo storing an ansible role as a dependency
+- src: https://github.com/shelleg/common-ansivle-role.git
+# optionally give is a local name in your project
+  name: common
