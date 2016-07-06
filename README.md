@@ -18,6 +18,7 @@ Repo Structure:
 │   ├── inventories              # Ansible inventories [ static | ec2 | openstack etc ]
 │   ├── log                      # Log directory placeholder
 │   │   └── ansible.log          # Only in initial structure, it will remain in .gitignore ...
+│   ├── plugins                  # Plugins directory
 │   ├── playbooks                # Ansible Playbooks directory
 │   │   ├── group_vars           # Ansible group variables see ./all below
 │   │   │   └── all              # A folder which can store a hierarcy of ansible vars
